@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    color: aliceblue;
+}
+nav{
+    background-color: #0a0a23;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+nav>ul>li{
+    list-style-type: none;
+}
+nav>ul>li>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+}
+.home{
+    width: 100%;
+    height: 1000px;
+    background-image: url(Images/developer.png);
+    background-size:cover;
+}
+.home>h1{
+    color:white;
+    padding-top: 100px;
+    padding-left:400px;
+    font-size: 50px;
+}
+.home>h1>span{
+    font-size: 30px;
+}
+.works{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(239, 243, 243);
+}
+.works>#work-page-heading{
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container>.myWork{
+    background-color: lightskyblue;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow:10px 5px 5px black;
+    color: rgb(5, 3, 3);
+    transition: 0.2s ease-in-out;
+}
+.container>.myWork>#web{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(Images/web.png);
+    background-size: cover;
+}
+.container>.myWork>#app{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(Images/mobile.png);
+    background-size: cover;
+}
+.container>.myWork>#ux-ul{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(Images/UIUX.jpg);
+    background-size: cover;
+}
+.myWork>h3,.myWork>p{
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container>.myWork:hover{
+    width: 320px;
+    height: 420px;
+    /* transition: all .2s ease-in; */
+    transition: 0.2s ease-in-out;
+    gap: 40px;
+}
+.contacts{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contacts>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts>#abouts-me{
+    background-color:rgb(57, 77, 43) ;
+}
+.contacts>#abouts-me>h5,.contacts>#contact-me>h5{
+    font-size: 50px;
+}
+.contacts>#abouts-me>p,.contacts>#contact-me>p{
+    width: 70%;
+}
+.contacts>#contact-me{
+    background-color: rgb(52, 85, 85);
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0a0a23;
+    font-size: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
